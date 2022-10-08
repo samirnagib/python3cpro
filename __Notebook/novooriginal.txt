@@ -1,0 +1,9 @@
+O código acima irá gerar um arquivo com o nome filekey.key. O arquivo conterá uma linha, que é uma string agindo como uma chave, ou seja, J64ZHFpCWFlS9zT7y5zxuQN1Gb09y7cucne_EhuWyDM =
+Criptografe o arquivo usando a chave gerada
+Agora temos uma chave criptografada e um arquivo a ser criptografado. Agora escreva o código para criptografar este arquivo:
+
+    Abra o arquivo que contém a chave.
+    Inicialize o objeto Fernet e armazene-o na variável fernet.
+    Leia o arquivo original.
+    Criptografe o arquivo e armazene-o em um objeto.
+    Em seguida, grave os dados criptografados no mesmo arquivo nba.csv .
